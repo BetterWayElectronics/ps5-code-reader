@@ -71,10 +71,14 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 ## Versions ##
 
-    0.0.4 (11/11/23) Updated Errors, Added 'Known Unknown' Temporary Errors, Updated/Fixed Unique Error Handling
-    0.0.3 (10/11/23) Updated Errors, Bug Fix for SAM_IPL Error, Better Unknown Error Handling, Updated HWID Generator
-    0.0.2 (8/11/23) Completely Re-Written RAM Diagnosis, Added Support for 400+ More Errors, Added Unknown Error Auto-Uploading, Fixed Some Errors, Other Mild Edits
-    0.0.1 (7/11/23) First Release! Public Beta
+	1.0.8 (28/11/23) Better Bug Fix For Connection Issues
+	1.0.7 (27/11/23) Bug Fixes, Allows Extra Error Code Handling, Updated Errors
+	1.0.6 (26/11/23) Added Error Code Auto-Updater (Will Grab New Codes Automatically!), Adjusted Communication W/ PS5, Updated Errors
+	1.0.5 (24/11/23) Significantly Updated Errors, Small Output Changes, Officially Out of Beta (v1 Added)
+	0.0.4 (11/11/23) Updated Errors, Added 'Known Unknown' Temporary Errors, Updated/Fixed Unique Error Handling
+	0.0.3 (10/11/23) Updated Errors, Bug Fix for SAM_IPL Error, Better Unknown Error Handling, Updated HWID Generator
+	0.0.2 (8/11/23) Completely Re-Written RAM Diagnosis, Added Support for 400+ More Errors, Added Unknown Error Auto-Uploading, Fixed Some Errors, Other Mild Edits
+	0.0.1 (7/11/23) First Release! Public Beta
 
 ## Greetz ##
 		
