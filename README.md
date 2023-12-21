@@ -102,9 +102,6 @@ I also repair consoles locally in Australia and have been doing that since 2008 
   Proudly made in Perl with Notepad++ by BwE, alone </3
 
 ## Links ##
-  
-
-## Links ##
 
 ### Support/Donate: ###
 https://www.buymeacoffee.com/BwE
