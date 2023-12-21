@@ -1,6 +1,6 @@
 # BwE PS5 Code Reader
 
-![BwE](https://i.imgur.com/MbNZwg7.png")
+![BwE](https://i.imgur.com/oQi5lHU.png)
 
 I am BwE of betterwayelectronics.com.au and I have been creating software to validate the PlayStation's flash since 2008 with the help of psdevwiki.com :)
 I also repair consoles locally in Australia and have been doing that since 2008 also. I am only recently slowing that down due to commitments with a PhD I am undertaking. 
@@ -58,7 +58,7 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 ## File Info ##
     
-    File MD5: 6506BD6A19199FE8A5DE3FB879BFB292
+    File MD5: 92D969AC53DC843182BEE18725E98299
     Technical Support: bweps5codezz@betterwayelectronics.com.au
     
     System Requirements:
@@ -71,6 +71,9 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 ## Versions ##
 
+	1.1.2 (14/12/23) Finally Fixed Error 36
+	1.1.1 (13/12/23) Better UART Handling, Last Minute Bug Fixes (Annoying)
+	1.1.0 (12/12/23) Code Improvement, Better Handling of Southbridge Errors, Bug Fixes (Again)
 	1.0.9 (9/12/23) Code Improvement, Bug Fixes, Holiday Theme
 	1.0.8 (28/11/23) Better Bug Fix For Connection Issues
 	1.0.7 (27/11/23) Bug Fixes, Allows Extra Error Code Handling, Updated Errors
@@ -112,6 +115,7 @@ I also repair consoles locally in Australia and have been doing that since 2008 
     	https://www.youtube.com/watch?v=hcmMSYmwSUQ <--- My Video!
     	https://www.youtube.com/watch?v=noS8wfZA99g <--- My Other Video!
     	https://www.youtube.com/watch?v=NDNld92tsZc <--- My PS5 Video
+     	https://www.youtube.com/watch?v=cegGCQwKTtU <--- PS5 NOR Tools & Code Reader Video!
     	https://www.youtube.com/watch?v=fE4qGHJyX8E
     	https://www.youtube.com/watch?v=q1F0AL3ttjY
     	https://www.youtube.com/watch?v=W7RpkG5hiA0
