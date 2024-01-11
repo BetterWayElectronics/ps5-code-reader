@@ -1,6 +1,6 @@
 # BwE PS5 Code Reader
 
-![BwE](https://i.imgur.com/oQi5lHU.png)
+![BwE](https://i.imgur.com/XUtQ03I.png)
 
 I am BwE of betterwayelectronics.com.au and I have been creating software to validate the PlayStation's flash since 2008 with the help of psdevwiki.com :)
 I also repair consoles locally in Australia and have been doing that since 2008 also. I am only recently slowing that down due to commitments with a PhD I am undertaking. 
@@ -58,7 +58,7 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 ## File Info ##
     
-    File MD5: 92D969AC53DC843182BEE18725E98299
+    File MD5: 9F5554790287C68D4B2960110A9C9B60
     Technical Support: bweps5codezz@betterwayelectronics.com.au
     
     System Requirements:
@@ -71,6 +71,7 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 ## Versions ##
 
+	1.1.3 (11/1/24) Added 2 New RAM Diagnostic Codes & Algorithms, Updated Southbridge Specific Codes, Other Small Updates/Changes 
 	1.1.2 (14/12/23) Finally Fixed Error 36
 	1.1.1 (13/12/23) Better UART Handling, Last Minute Bug Fixes (Annoying)
 	1.1.0 (12/12/23) Code Improvement, Better Handling of Southbridge Errors, Bug Fixes (Again)
