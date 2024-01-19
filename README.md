@@ -8,7 +8,7 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 ## FAQ ##
 
 ### What is this for? ###
-	It is designed for BLOD PS5 consoles.
+	It is designed for BLOD PS5 consoles (or those that cannot boot) but it is designed to detect any sort of error.
 
 ### What do I need to get going? ###
 	A USB TTL device and the pinout for the PS4 southbridge for your model!
@@ -17,6 +17,7 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 	Wire up your USB TTL device (RX->RX, TX->TX, GND->GND) to the UART points (See attached diagrams!) then run the program. 
 	The program will then search for the PS5. Plug AC power into the PS5 (or turn it on), so long as the southbridge works it will prompt that its been detected.
 	From here you can get the code results! I recommend clearing logs and attempting to boot the console to understand your current issue better.
+ 	Codes will primarily be from a pre-boot stage, but there are a large number of post-boot errors that my program will now detect.
 
 ### Why isn't it free? ###
 	This program is targeted towards businesses with bulk amounts of PS5s to repair. My products also come with support and continued development.
@@ -58,7 +59,7 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 ## File Info ##
     
-    File MD5: 9F5554790287C68D4B2960110A9C9B60
+    File MD5: F579E309D6FA434D74C1DE279278BC5E
     Technical Support: bweps5codezz@betterwayelectronics.com.au
     
     System Requirements:
@@ -71,6 +72,7 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 ## Versions ##
 
+	1.1.4 (18/1/24) New Online Database Solution (Can Handle Unlimited Codes Easily), Bug Fixes
 	1.1.3 (11/1/24) Added 2 New RAM Diagnostic Codes & Algorithms, Updated Southbridge Specific Codes, Other Small Updates/Changes 
 	1.1.2 (14/12/23) Finally Fixed Error 36
 	1.1.1 (13/12/23) Better UART Handling, Last Minute Bug Fixes (Annoying)
