@@ -66,7 +66,7 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 ## File Info ##
     
-    File MD5: F579E309D6FA434D74C1DE279278BC5E
+    File MD5: E3C533C23DEF2E13A29FAED95301DE50
     Technical Support: bweps5codezz@betterwayelectronics.com.au
     
     System Requirements:
