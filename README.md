@@ -33,6 +33,9 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 ### I am getting "Unknown Error Code (N/A)" ###
 	Your PS5 is not getting a proper reply from the error code commands. No ground wire or loose wiring on USB TTL.
 	Another possibility is that you're sending commands too quickly. Unplug everything and try later.
+ 
+### How can I make it NOT auto-select or simply force a specific COM port? ###
+	Make a file called 'com.ini' in the same directory and in the first line put your desired COM port, so 'COM6' for example. The program will select that forever until you delete the ini file.
 
 ### I have seen other PS5 Code Readers, what are they? ###
 	Stolen properly basically. Amoamare released a hacked honeypot database from an old version of my program and published it as his own. 
