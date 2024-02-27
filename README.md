@@ -1,6 +1,6 @@
 # BwE PS5 Code Reader
 
-![BwE](https://i.imgur.com/XUtQ03I.png)
+![BwE](https://i.imgur.com/GtqZeRU.png)
 
 I am BwE of betterwayelectronics.com.au and I have been creating software to validate the PlayStation's flash since 2008 with the help of psdevwiki.com :)
 I also repair consoles locally in Australia and have been doing that since 2008 also. I am only recently slowing that down due to commitments with a PhD I am undertaking. 
@@ -33,6 +33,10 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 ### I am getting "Unknown Error Code (N/A)" ###
 	Your PS5 is not getting a proper reply from the error code commands. No ground wire or loose wiring on USB TTL.
 	Another possibility is that you're sending commands too quickly. Unplug everything and try later.
+
+### I have seen other PS5 Code Readers, what are they? ###
+	Stolen properly basically. Amoamare released a hacked honeypot database from an old version of my program and published it as his own. 
+ 	So, he's nothing but a thief. Shameful. So don't support thieves, get the original, which features real codes by the tens of thousands.
 	
 
 ### TLDR; Will this fix my BLOD? No, that's your job using the information this program has given you! ###
@@ -72,7 +76,10 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 ## Versions ##
 
-	1.1.4 (18/1/24) New Online Database Solution (Can Handle Unlimited Codes Easily), Bug Fixes
+	1.1.7 (25/2/24) More Big Fixes, Internal Improvements
+	1.1.6 (24/2/24) Last Minute Updates: New Error Parsing, Bug Fixes
+	1.1.5 (23/2/24) Requested Feature: Com Port Settings File, Bug Fixes & Improvements
+ 	1.1.4 (18/1/24) New Online Database Solution (Can Handle Unlimited Codes Easily), Bug Fixes
 	1.1.3 (11/1/24) Added 2 New RAM Diagnostic Codes & Algorithms, Updated Southbridge Specific Codes, Other Small Updates/Changes 
 	1.1.2 (14/12/23) Finally Fixed Error 36
 	1.1.1 (13/12/23) Better UART Handling, Last Minute Bug Fixes (Annoying)
