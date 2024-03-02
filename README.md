@@ -1,6 +1,6 @@
 # BwE PS5 Code Reader
 
-![BwE](https://i.imgur.com/GtqZeRU.png)
+![BwE](https://i.imgur.com/q99b791.png)
 
 I am BwE of betterwayelectronics.com.au and I have been creating software to validate the PlayStation's flash since 2008 with the help of psdevwiki.com :)
 I also repair consoles locally in Australia and have been doing that since 2008 also. I am only recently slowing that down due to commitments with a PhD I am undertaking. 
@@ -13,17 +13,23 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 ### What do I need to get going? ###
 	A USB TTL device and the pinout for the PS4 southbridge for your model!
 
-### Instructions? ###
-	Wire up your USB TTL device (RX->RX, TX->TX, GND->GND) to the UART points (See attached diagrams!) then run the program. 
-	The program will then search for the PS5. Plug AC power into the PS5 (or turn it on), so long as the southbridge works it will prompt that its been detected.
+### Instructions ###
+	Wire up your USB TTL device to the UART points (See attached diagrams!) then run the program. 
+	The program will then search for the PS5. Plug AC power into the PS5, so long as the southbridge works it will prompt that its been detected.
 	From here you can get the code results! I recommend clearing logs and attempting to boot the console to understand your current issue better.
- 	Codes will primarily be from a pre-boot stage, but there are a large number of post-boot errors that my program will now detect.
+	Codes will primarily be from a pre-boot stage, but there are a large number of post-boot errors that my program will now detect.
+
+### The PS5 isnt responding? ###
+	Try RX->RX, TX->TX, GND->GND - if that doesn't work just do RX->TX, TX->RX, GND->GND - if that doesn't work flip it!
+	Some USB TTL devices care about this, some don't. It's not going to damage anything if you wire it incorrectly.
+	Some UART devices have fake chips and the problem could be a wrong driver. Try changing device and or updating drivers.
 
 ### Why isn't it free? ###
 	This program is targeted towards businesses with bulk amounts of PS5s to repair. My products also come with support and continued development.
 	
 ### Will you add more diagnostic codes? ###
 	So long as people buy this program, yes.
+	Codes are updated automatically via my online database. Updating the program rarely influences error code outputs.
 
 ### I get GDDR6 error top and bottom and a bank number, what does that mean? ###
 	With the board positioned up and the RAM facing you the top row is the top 4 RAM chips and the bottom row is the bottom 4.
@@ -38,8 +44,9 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 	Make a file called 'com.ini' in the same directory and in the first line put your desired COM port, so 'COM6' for example. The program will select that forever until you delete the ini file.
 
 ### I have seen other PS5 Code Readers, what are they? ###
-	Stolen properly basically. Amoamare released a hacked honeypot database from an old version of my program and published it as his own. 
- 	So, he's nothing but a thief. Shameful. So don't support thieves, get the original, which features real codes by the tens of thousands.
+	Stolen properly basically. Amoamare and another person hacked a honeypotted (deliberately vulnerable) database from an old version of my program and published it as their own. 
+	I don't support thieves and neither should you. So you can either play with fake/misleading/old codes or use my database of tens of thousands of curated codes.
+	Be aware, if you are using these programs you won't be able to use mine and your access may be revoked.
 	
 
 ### TLDR; Will this fix my BLOD? No, that's your job using the information this program has given you! ###
@@ -66,8 +73,8 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 ## File Info ##
     
-    File MD5: E3C533C23DEF2E13A29FAED95301DE50
-    Technical Support: bweps5codezz@betterwayelectronics.com.au
+    File MD5: 1161F9459734EC55B247BFC34D859E1B
+    Technical Support: abotstolethisfrommyps5codereadergithubpage@betterwayelectronics.com.au
     
     System Requirements:
     	Minimum 4 CPU Threads
@@ -79,6 +86,7 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 ## Versions ##
 
+	1.1.8 (2/3/24) Requested Feature: Auto Saving Error Log, Internal Improvements
 	1.1.7 (25/2/24) More Big Fixes, Internal Improvements
 	1.1.6 (24/2/24) Last Minute Updates: New Error Parsing, Bug Fixes
 	1.1.5 (23/2/24) Requested Feature: Com Port Settings File, Bug Fixes & Improvements
