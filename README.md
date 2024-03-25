@@ -43,10 +43,22 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 ### How can I make it NOT auto-select or simply force a specific COM port? ###
 	Make a file called 'com.ini' in the same directory and in the first line put your desired COM port, so 'COM6' for example. The program will select that forever until you delete the ini file.
 
+### I am getting no response to UART, the PS5 is not detected! ###
+	You may have a bad fuse F7003 - if it tests okay, bridge it (don't) or replace it regardless.
+	Or simply confirm power is indeed getting to the Southbridge!
+
 ### I have seen other PS5 Code Readers, what are they? ###
 	Stolen properly basically. Amoamare and another person hacked a honeypotted (deliberately vulnerable) database from an old version of my program and published it as their own. 
 	I don't support thieves and neither should you. So you can either play with fake/misleading/old codes or use my database of tens of thousands of curated codes.
 	Be aware, if you are using these programs you won't be able to use mine and your access may be revoked.
+
+### Your program is a VIRUS/SPYWARE! WAAAH! ###
+	I protect my programs with Themida. The problem with this is that heuristically some AV software see it as a threat.
+	This is totally fine and normal, but also very annoying and unavoidable.
+
+	My program collects user data via the HWID generator as to be able to generate your license details. The code reader itself also communicates with my website to store use data which must then match the HWID data.
+	This is a totally normal and boring process that has nothing to do with spying on the end user. If you consider that me knowing that you are using my program is spying on you, then don't use my program.
+
 	
 
 ### TLDR; Will this fix my BLOD? No, that's your job using the information this program has given you! ###
@@ -73,7 +85,7 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 ## File Info ##
     
-    File MD5: 1161F9459734EC55B247BFC34D859E1B
+    File MD5: 4CECF807B32DF335D057FC881C562E46
     Technical Support: abotstolethisfrommyps5codereadergithubpage@betterwayelectronics.com.au
     
     System Requirements:
@@ -85,7 +97,10 @@ I also repair consoles locally in Australia and have been doing that since 2008 
     BwE
 
 ## Versions ##
-
+	1.2.2 (18/3/24) Major Code Re-Writes, Compatibility Improvements, Better Error Handling, New Database Parsing
+	1.2.1 (15/3/24) Internal Improvements (Again)
+	1.2.0 (14/3/24) Database & Internal Improvements
+	1.1.9 (7/3/24) Added 2 New RAM Diagnostic Codes & Algorithms, Database & Internal Improvements
 	1.1.8 (2/3/24) Requested Feature: Auto Saving Error Log, Internal Improvements
 	1.1.7 (25/2/24) More Big Fixes, Internal Improvements
 	1.1.6 (24/2/24) Last Minute Updates: New Error Parsing, Bug Fixes
