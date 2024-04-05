@@ -1,6 +1,6 @@
 # BwE PS5 Code Reader
 
-![BwE](https://i.imgur.com/F4tYQXO.png)
+![BwE](https://i.imgur.com/oSK1VPl.png)
 
 I am BwE of betterwayelectronics.com.au and I have been creating software to validate the PlayStation's flash since 2008 with the help of psdevwiki.com :)
 I also repair consoles locally in Australia and have been doing that since 2008 also. I am only recently slowing that down due to commitments with a PhD I am undertaking. 
@@ -54,10 +54,9 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 ### Your program is a VIRUS/SPYWARE! WAAAH! ###
 	I protect my programs with Themida. The problem with this is that heuristically some AV software see it as a threat.
-	This is totally fine and normal, but also very annoying and unavoidable.
-
-	My program collects user data via the HWID generator as to be able to generate your license details. The code reader itself also communicates with my website to store use data which must then match the HWID data.
-	This is a totally normal and boring process that has nothing to do with spying on the end user. If you consider that me knowing that you are using my program is spying on you, then don't use my program.
+	This is totally fine and normal, but also very annoying and unavoidable. 
+	
+	Visit https://betterwayelectronics.com.au/virus.html for more information!
 
 	
 
@@ -74,18 +73,22 @@ I also repair consoles locally in Australia and have been doing that since 2008 
     2 - Read Last 10 Codes
     	
     	Displays the last 10 error codes that the PS5 has!
-    
-    3 - Clear Error Codes
-    
-    	Clears the entire log. I recommend this as your first step, then rebooting or unplugging and re-plugging AC.
-    
+     
+    3 - Read Last 20 Codes
+		
+	Displays the last 20 error codes that the PS5 has!
+	
+    4 - Clear Error Codes
+	
+	Clears the entire log. I recommend this as your first step, then rebooting or unplugging and re-plugging AC.
+	
     Q - Quit
-    
-    	Quits
+
+	Quits
 
 ## File Info ##
     
-    File MD5: 4CECF807B32DF335D057FC881C562E46
+    File MD5: 00923F4B11D1157660E3783220414E52
     Technical Support: abotstolethisfrommyps5codereadergithubpage@betterwayelectronics.com.au
     
     System Requirements:
@@ -97,6 +100,9 @@ I also repair consoles locally in Australia and have been doing that since 2008 
     BwE
 
 ## Versions ##
+	1.2.5 (5/4/24) Added Time Stamps (Time Since Latest Error), Added Last 20 Errors Option, Fixed Output Text File Date Scheme, Changed Internal Error Algorithm 
+	1.2.4 (2/4/24) Bug Fixes, Code Improvements
+	1.2.3 (28/3/24) Updated Core Code, Bug Fixes
 	1.2.2 (18/3/24) Major Code Re-Writes, Compatibility Improvements, Better Error Handling, New Database Parsing
 	1.2.1 (15/3/24) Internal Improvements (Again)
 	1.2.0 (14/3/24) Database & Internal Improvements
