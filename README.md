@@ -88,7 +88,7 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 ## File Info ##
     
-    File MD5: 00923F4B11D1157660E3783220414E52
+    File MD5: BCD6ACD404E86BD6DDE07CDBCE05F74E
     Technical Support: abotstolethisfrommyps5codereadergithubpage@betterwayelectronics.com.au
     
     System Requirements:
@@ -100,6 +100,11 @@ I also repair consoles locally in Australia and have been doing that since 2008 
     BwE
 
 ## Versions ##
+	1.3.0 (12/4/24) USB License Bug Fix 
+	1.2.9 (11/4/24) Better Handling of Southbridge Errors, Updated Code/Functions
+	1.2.8 (8/4/24) Code Improvements, Better Handling of Updates
+	1.2.7 (7/4/24) Bug Fix for Bug Fix
+	1.2.6 (6/4/24) User Reported Bug Fix
 	1.2.5 (5/4/24) Added Time Stamps (Time Since Latest Error), Added Last 20 Errors Option, Fixed Output Text File Date Scheme, Changed Internal Error Algorithm 
 	1.2.4 (2/4/24) Bug Fixes, Code Improvements
 	1.2.3 (28/3/24) Updated Core Code, Bug Fixes
