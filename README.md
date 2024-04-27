@@ -1,6 +1,6 @@
 # BwE PS5 Code Reader
 
-![BwE](https://i.imgur.com/oSK1VPl.png)
+![BwE](https://i.imgur.com/QddBZO4.png)
 
 I am BwE of betterwayelectronics.com.au and I have been creating software to validate the PlayStation's flash since 2008 with the help of psdevwiki.com :)
 I also repair consoles locally in Australia and have been doing that since 2008 also. I am only recently slowing that down due to commitments with a PhD I am undertaking. 
@@ -58,7 +58,11 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 	
 	Visit https://betterwayelectronics.com.au/virus.html for more information!
 
+### Program closes itself and says something about incompatible software? ###
+	I block reverse engineering software and software that has stolen my IP. Simply close those programs and open mine again.
 	
+	Visit https://betterwayelectronics.com.au/incompatible.html for more information!
+
 
 ### TLDR; Will this fix my BLOD? No, that's your job using the information this program has given you! ###
 ### TLDR; Will this prove my BLOD is XYZ? Kinda yes, thats the idea. It will show you what has failed. ###
@@ -88,7 +92,7 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 ## File Info ##
     
-    File MD5: BCD6ACD404E86BD6DDE07CDBCE05F74E
+    File MD5: 440D8BD26D349CE2C22EB82F67581845
     Technical Support: abotstolethisfrommyps5codereadergithubpage@betterwayelectronics.com.au
     
     System Requirements:
@@ -100,6 +104,9 @@ I also repair consoles locally in Australia and have been doing that since 2008 
     BwE
 
 ## Versions ##
+	1.3.3 (27/4/24) Updated To Suit Online Database Changes, Internal Improvements, Removed Superfluous Warning
+	1.3.2 (20/4/24) Internal Improvements
+	1.3.1 (14/4/24) Better Chinese Language Support & Other Small Changes
 	1.3.0 (12/4/24) USB License Bug Fix 
 	1.2.9 (11/4/24) Better Handling of Southbridge Errors, Updated Code/Functions
 	1.2.8 (8/4/24) Code Improvements, Better Handling of Updates
