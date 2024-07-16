@@ -70,19 +70,19 @@ Be aware, if you continually are using these programs you won't be able to use m
 Visit https://betterwayelectronics.com.au/incompatible.html for more information!
 
 
-## TLDR; Will this fix my BLOD? No, that's your job using the information this program has given you! ##
-## TLDR; Will this prove my BLOD is XYZ? Kinda yes, thats the idea. It will show you what has failed. ##
+### TLDR; Will this fix my BLOD? No, that's your job using the information this program has given you! ###
+### TLDR; Will this prove my BLOD is XYZ? Kinda yes, thats the idea. It will show you what has failed. ###
 
 		
 # Program Menu: #
     
     1 - Read Current Error Code
     
-    	Displays the active/current error code that the PS5 has!
+	Displays the active/current error code that the PS5 has!
     		
     2 - Read Last 10 Codes
     	
-    	Displays the last 10 error codes that the PS5 has!
+	Displays the last 10 error codes that the PS5 has!
      
     3 - Read Last 20 Codes
 		
