@@ -1,6 +1,6 @@
 # BwE PS5 Code Reader
 
-![BwE](https://i.imgur.com/QddBZO4.png)
+![BwE](https://i.imgur.com/UE7eTEB.png)
 
 I am BwE of betterwayelectronics.com.au and I have been creating software to validate the PlayStation's flash since 2008 with the help of psdevwiki.com :)
 I also repair consoles locally in Australia and have been doing that since 2008 also. I am only recently slowing that down due to commitments with a PhD I am undertaking. 
@@ -92,8 +92,8 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 ## File Info ##
     
-    File MD5: 440D8BD26D349CE2C22EB82F67581845
-    Technical Support: abotstolethisfrommyps5codereadergithubpage@betterwayelectronics.com.au
+    File MD5: AC6D2BDE805DD1960F46B4476A299D69
+    Technical Support: WAAAAAAAAAAAAAHDONTEMAILME@betterwayelectronics.com.au
     
     System Requirements:
     	Minimum 4 CPU Threads
@@ -104,6 +104,10 @@ I also repair consoles locally in Australia and have been doing that since 2008 
     BwE
 
 ## Versions ##
+	1.3.7 (16/7/24) Another Update To Algorithms/Logic, Updated Database, Updated Error Handling, Future Proofing
+	1.3.6 (11/7/24) Updated Internal Algorithms/Logic, Updated Database (Significantly), Better Error Handling
+	1.3.5 (3/7/24) Supports Windows 11 24H2, Internal Changes/Fixes
+	1.3.4 (5/6/24) Internal Updates & Changes, New Heuristics 
 	1.3.3 (27/4/24) Updated To Suit Online Database Changes, Internal Improvements, Removed Superfluous Warning
 	1.3.2 (20/4/24) Internal Improvements
 	1.3.1 (14/4/24) Better Chinese Language Support & Other Small Changes
@@ -234,5 +238,7 @@ https://www.buymeacoffee.com/BwE
 ## Purchase ##
 
   If you are a commercial user, I highly suggest you buy the software here: https://betterwayelectronics.com.au/ps5codereader
+
+	There is a demo available on my website, though it only has the 30,000+ descriptions every second month! Otherwise it defults to the public 56 codes.
   
   After purchase, provide your HWID via the provided application to obtain your license key.
