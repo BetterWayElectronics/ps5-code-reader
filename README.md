@@ -4,71 +4,77 @@
 
 I am BwE of betterwayelectronics.com.au and I have been creating software to validate the PlayStation's flash since 2008 with the help of psdevwiki.com :)
 I also repair consoles locally in Australia and have been doing that since 2008 also. I am only recently slowing that down due to commitments with a PhD I am undertaking. 
+I am proudly the first in the world to pioneer and publicly release software for this method of diagnosing PS5 repairs! The same applies to my NOR repair software in both the PS4 and PS5!
 
-## FAQ ##
+# FAQ #
 
-### What is this for? ###
-	It is designed for BLOD PS5 consoles (or those that cannot boot) but it is designed to detect any sort of error.
+## What is this for? ##
+It is designed for BLOD PS5 consoles (or those that cannot boot) but it is designed to detect any sort of error.
 
-### What do I need to get going? ###
-	A USB TTL device and the pinout for the PS4 southbridge for your model!
+## What do I need to get going? ##
+A USB TTL device and the pinout for the PS4 southbridge for your model!
 
-### Instructions ###
-	Wire up your USB TTL device to the UART points (See attached diagrams!) then run the program. 
-	The program will then search for the PS5. Plug AC power into the PS5, so long as the southbridge works it will prompt that its been detected.
-	From here you can get the code results! I recommend clearing logs and attempting to boot the console to understand your current issue better.
-	Codes will primarily be from a pre-boot stage, but there are a large number of post-boot errors that my program will now detect.
+## Instructions ##
+Wire up your USB TTL device to the UART points (See attached diagrams!) then run the program. 
+The program will then search for the PS5. Plug AC power into the PS5, so long as the southbridge works it will prompt that its been detected.
+From here you can get the code results! I recommend clearing logs and attempting to boot the console to understand your current issue better.
+Codes will primarily be from a pre-boot stage, but there are a large number of post-boot errors that my program will now detect.
 
-### The PS5 isnt responding? ###
-	Try RX->RX, TX->TX, GND->GND - if that doesn't work just do RX->TX, TX->RX, GND->GND - if that doesn't work flip it!
-	Some USB TTL devices care about this, some don't. It's not going to damage anything if you wire it incorrectly.
-	Some UART devices have fake chips and the problem could be a wrong driver. Try changing device and or updating drivers.
+## The PS5 isnt responding? ##
+Try RX->RX, TX->TX, GND->GND - if that doesn't work just do RX->TX, TX->RX, GND->GND - if that doesn't work flip it!
+Some USB TTL devices care about this, some don't. It's not going to damage anything if you wire it incorrectly.
+Some UART devices have fake chips and the problem could be a wrong driver. Try changing device and or updating drivers.
 
-### Why isn't it free? ###
-	This program is targeted towards businesses with bulk amounts of PS5s to repair. My products also come with support and continued development.
+## Why isn't it free? ##
+This program is targeted towards businesses with bulk amounts of PS5s to repair. My products also come with support and continued development.
+ There is a demo available on my website, though it only has the 30,000+ descriptions every second month! Otherwise it defults to the public 56 codes.
+
 	
-### Will you add more diagnostic codes? ###
-	So long as people buy this program, yes.
-	Codes are updated automatically via my online database. Updating the program rarely influences error code outputs.
+## Will you add more diagnostic codes? ##
+So long as people buy this program, yes.
+Codes are updated automatically via my online database. 
 
-### I get GDDR6 error top and bottom and a bank number, what does that mean? ###
-	With the board positioned up and the RAM facing you the top row is the top 4 RAM chips and the bottom row is the bottom 4.
-	Top row from left to right is 1, 2, 3 ,4 - Bottom row from left to right is 8, 7, 6, 5.
-	See attached diagram!
+## I get GDDR6 error top and bottom and a bank number, what does that mean? ##
+With the board positioned up and the RAM facing you the top row is the top 4 RAM chips and the bottom row is the bottom 4.
+Top row from left to right is 1, 2, 3 ,4 - Bottom row from left to right is 8, 7, 6, 5.
+See attached diagram!
 	
-### I am getting "Unknown Error Code (N/A)" ###
-	Your PS5 is not getting a proper reply from the error code commands. No ground wire or loose wiring on USB TTL.
-	Another possibility is that you're sending commands too quickly. Unplug everything and try later.
+## I am getting "Unknown Error Code (N/A)" ##
+This is now VERY RARE! You should contact me ASAP if you have a code that I do not already have!
+Your PS5 is not getting a proper reply from the error code commands. No ground wire or loose wiring on USB TTL.
+Another possibility is that you're sending commands too quickly. Unplug everything and try later.
  
-### How can I make it NOT auto-select or simply force a specific COM port? ###
-	Make a file called 'com.ini' in the same directory and in the first line put your desired COM port, so 'COM6' for example. The program will select that forever until you delete the ini file.
+## How can I make it NOT auto-select or simply force a specific COM port? ##
+Make a file called 'com.ini' in the same directory and in the first line put your desired COM port, so 'COM6' for example. The program will select that forever until you delete the ini file.
 
-### I am getting no response to UART, the PS5 is not detected! ###
-	You may have a bad fuse F7003 - if it tests okay, bridge it (don't) or replace it regardless.
-	Or simply confirm power is indeed getting to the Southbridge!
+## I am getting no response to UART, the PS5 is not detected! ##
+You may have a bad fuse F7003 - if it tests okay, bridge it (don't) or replace it regardless.
+Or simply confirm power is indeed getting to the Southbridge!
 
-### I have seen other PS5 Code Readers, what are they? ###
-	Stolen properly basically. Amoamare and another person hacked a honeypotted (deliberately vulnerable) database from an old version of my program and published it as their own. 
-	I don't support thieves and neither should you. So you can either play with fake/misleading/old codes or use my database of tens of thousands of curated codes.
-	Be aware, if you are using these programs you won't be able to use mine and your access may be revoked.
+## I have seen other PS5 Code Readers, what are they? ##
+Stolen properly basically. Amoamare and another person hacked a honeypotted (deliberately vulnerable) database from an old version of my program and published it as their own. 
+I don't support thieves and neither should you. So you can either play with fake/misleading/old codes or use my database of tens of thousands of curated codes.
+The amusing thing is they only have 56 codes, so less than 1% of what my product offers. They got these 56 by stealing from me. Is it really worth your time?
 
-### Your program is a VIRUS/SPYWARE! WAAAH! ###
-	I protect my programs with Themida. The problem with this is that heuristically some AV software see it as a threat.
-	This is totally fine and normal, but also very annoying and unavoidable. 
-	
-	Visit https://betterwayelectronics.com.au/virus.html for more information!
+## Your program is a VIRUS/SPYWARE! WAAAH! ##
+I protect my programs with Themida. The problem with this is that heuristically some AV software see it as a threat.
+This is totally fine and normal, but also very annoying and unavoidable. 
 
-### Program closes itself and says something about incompatible software? ###
-	I block reverse engineering software and software that has stolen my IP. Simply close those programs and open mine again.
-	
-	Visit https://betterwayelectronics.com.au/incompatible.html for more information!
+Visit https://betterwayelectronics.com.au/virus.html for more information!
+
+## Program closes itself and says something about incompatible software? ##
+I block reverse engineering software and software that has stolen my IP. Simply close those programs and open mine again.
+Be aware, if you continually are using these programs you won't be able to use mine and your access may be revoked.
 
 
-### TLDR; Will this fix my BLOD? No, that's your job using the information this program has given you! ###
-### TLDR; Will this prove my BLOD is XYZ? Kinda yes, thats the idea. It will show you what has failed. ###
+Visit https://betterwayelectronics.com.au/incompatible.html for more information!
+
+
+## TLDR; Will this fix my BLOD? No, that's your job using the information this program has given you! ##
+## TLDR; Will this prove my BLOD is XYZ? Kinda yes, thats the idea. It will show you what has failed. ##
 
 		
-## Menu: ##
+# Program Menu: #
     
     1 - Read Current Error Code
     
@@ -90,7 +96,7 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
 	Quits
 
-## File Info ##
+# File Info #
     
     File MD5: AC6D2BDE805DD1960F46B4476A299D69
     Technical Support: WAAAAAAAAAAAAAHDONTEMAILME@betterwayelectronics.com.au
@@ -103,7 +109,7 @@ I also repair consoles locally in Australia and have been doing that since 2008 
     Archive Password:
     BwE
 
-## Versions ##
+# Versions #
 	1.3.7 (16/7/24) Another Update To Algorithms/Logic, Updated Database, Updated Error Handling, Future Proofing
 	1.3.6 (11/7/24) Updated Internal Algorithms/Logic, Updated Database (Significantly), Better Error Handling
 	1.3.5 (3/7/24) Supports Windows 11 24H2, Internal Changes/Fixes
@@ -142,7 +148,7 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 	0.0.2 (8/11/23) Completely Re-Written RAM Diagnosis, Added Support for 400+ More Errors, Added Unknown Error Auto-Uploading, Fixed Some Errors, Other Mild Edits
 	0.0.1 (7/11/23) First Release! Public Beta
 
-## Greetz ##
+# Greetz #
 		
   	Thailand (Xohke!)
   	DarkNESMonk
@@ -159,16 +165,16 @@ I also repair consoles locally in Australia and have been doing that since 2008 
 
   Proudly made in Perl with Notepad++ by BwE, alone </3
 
-## Links ##
+# Links #
 
-### Support/Donate: ###
+## Support/Donate: ##
 https://www.buymeacoffee.com/BwE
 
-### Console Repair Discord: ###
+## Console Repair Discord: ##
 - https://discord.com/servers/console-repair-discord-754165317961383997
 - https://discord.gg/pXeUHMy
 
-### Videos Featuring My Program: ###	
+## Videos Featuring My Program: ##	
 - https://www.youtube.com/watch?v=hcmMSYmwSUQ <--- My Video!
 - https://www.youtube.com/watch?v=noS8wfZA99g <--- My Other Video!
 - https://www.youtube.com/watch?v=NDNld92tsZc <--- My PS5 Video
@@ -210,7 +216,7 @@ https://www.buymeacoffee.com/BwE
 - https://www.youtube.com/watch?v=5q0WWyYNsTs (Uncredited)
 - https://www.youtube.com/watch?v=ZEwgtvKcB58 (Uncredited)
 
-### Website Featuring My Program: ###
+## Website Featuring My Program: ##
 - https://repair.wiki/w/PS4_UART_Guide
 - https://wololo.net/tag/bwe/
 - http://www.logic-sunrise.com/recherche/bwe/
@@ -228,17 +234,17 @@ https://www.buymeacoffee.com/BwE
 - https://yoschi.cc/gaming/es-ist-anscheinend-moeglich-ihre-ps4-ohne-backup/
 - https://psx-core.ru/forum/48-3196-5
 
-### My Websites: ###
+## My Websites: ##
 - https://www.betterwayelectronics.com.au/
 - https://instagram.com/betterwayelectronics
 - https://github.com/BetterWayElectronics/
 - https://twitter.com/BwE_Dev
 - http://www.ps5repair.com.au/
   	
-## Purchase ##
+# Purchase #
 
-  If you are a commercial user, I highly suggest you buy the software here: https://betterwayelectronics.com.au/ps5codereader
+If you are a commercial user, I highly suggest you buy the software here: https://betterwayelectronics.com.au/ps5codereader
 
-	There is a demo available on my website, though it only has the 30,000+ descriptions every second month! Otherwise it defults to the public 56 codes.
+There is a demo available on my website, though it only has the 30,000+ descriptions every second month! Otherwise it defults to the public 56 codes.
   
-  After purchase, provide your HWID via the provided application to obtain your license key.
+After purchase, provide your HWID via the provided application to obtain your license key.
