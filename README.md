@@ -1,6 +1,6 @@
 # BwE PS5 Code Reader
 
-![BwE](https://i.imgur.com/UE7eTEB.png)
+![BwE](https://i.imgur.com/1KPJS4W.png)
 
 I am BwE of betterwayelectronics.com.au and I have been creating software to validate the PlayStation's flash since 2008 with the help of psdevwiki.com :)
 I also repair consoles locally in Australia and have been doing that since 2008 also. I am only recently slowing that down due to commitments with a PhD I am undertaking. 
@@ -98,8 +98,8 @@ Visit https://betterwayelectronics.com.au/incompatible.html for more information
 
 # File Info #
     
-    File MD5: AC6D2BDE805DD1960F46B4476A299D69
-    Technical Support: WAAAAAAAAAAAAAHDONTEMAILME@betterwayelectronics.com.au
+    File MD5: 8B79560D8685EF74FE0032E4D23F4E18
+    Technical Support: Whatsapp
     
     System Requirements:
     	Minimum 4 CPU Threads
@@ -110,6 +110,9 @@ Visit https://betterwayelectronics.com.au/incompatible.html for more information
     BwE
 
 # Versions #
+	1.4.0 (3/8/24) Bug Fixes
+	1.3.9 (2/8/24) Internal Updates, Removed Private Beta, Code Updates (Internal & External)
+	1.3.8 (24/7/24) Modified and Reworked 1.3.5-7 Updates, Updated Core Code To Suit Future Development, Private Beta of Potential New Feature (If Applicable, Menu Option 5 Will Appear)
 	1.3.7 (16/7/24) Another Update To Algorithms/Logic, Updated Database, Updated Error Handling, Future Proofing
 	1.3.6 (11/7/24) Updated Internal Algorithms/Logic, Updated Database (Significantly), Better Error Handling
 	1.3.5 (3/7/24) Supports Windows 11 24H2, Internal Changes/Fixes
