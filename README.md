@@ -103,7 +103,7 @@ Visit https://betterwayelectronics.com.au/incompatible.html for more information
     
     System Requirements:
     	Minimum 4 CPU Threads
-    	Windows XP, 7-11 (64bit) 
+    	Windows 10-11 (64bit) 
     	100mb+ Storage Space
     
     Archive Password:
