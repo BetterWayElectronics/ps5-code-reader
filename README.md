@@ -66,8 +66,14 @@ Visit https://betterwayelectronics.com.au/virus.html for more information!
 I block reverse engineering software and software that has stolen my IP. Simply close those programs and open mine again.
 Be aware, if you continually are using these programs you won't be able to use mine and your access may be revoked.
 
-
 Visit https://betterwayelectronics.com.au/incompatible.html for more information!
+
+## Do you have any guides? ##
+https://betterwayelectronics.com.au/guide
+
+## How does this compare to free alternatives? ##
+Lets just say the alternatives are no match :)
+https://betterwayelectronics.com.au/codescompared
 
 
 ### TLDR; Will this fix my BLOD? No, that's your job using the information this program has given you! ###
@@ -98,7 +104,7 @@ Visit https://betterwayelectronics.com.au/incompatible.html for more information
 
 # File Info #
     
-    File MD5: 8B79560D8685EF74FE0032E4D23F4E18
+    File MD5: 9E2DEDBA1503D64784D3665F52D99063
     Technical Support: Whatsapp
     
     System Requirements:
@@ -110,6 +116,12 @@ Visit https://betterwayelectronics.com.au/incompatible.html for more information
     BwE
 
 # Versions #
+	1.4.7 (14/10/24) Improved Corrupt NVS Handling, Bug Fix
+	1.4.6 (12/10/24) Greatly Improved Corrupt NVS and UART Handling 
+	1.4.5 (11/10/24) Checks For Valid NVS Before Reading UART, Checks Valid Responses From UART, Checks For Correct UART Mode (And Repairs If Not), Checks Southbridge & Syscon Versions, Other Improvements To Reading Codes, More Error Codes, Transparent Incompatibility Error Information.
+	1.4.3 (18/9/24) One Extra Bug Fix
+	1.4.2 (18/9/24) Bug Fixes, Better Error/Bug Reporting, Message Of The Day
+	1.4.1 (15/9/24) Updated Core Code, Bug Fixes, Better Handling Of New Dataset 
 	1.4.0 (3/8/24) Bug Fixes
 	1.3.9 (2/8/24) Internal Updates, Removed Private Beta, Code Updates (Internal & External)
 	1.3.8 (24/7/24) Modified and Reworked 1.3.5-7 Updates, Updated Core Code To Suit Future Development, Private Beta of Potential New Feature (If Applicable, Menu Option 5 Will Appear)
@@ -248,6 +260,6 @@ https://www.buymeacoffee.com/BwE
 
 If you are a commercial user, I highly suggest you buy the software here: https://betterwayelectronics.com.au/ps5codereader
 
-There is a demo available on my website, though it only has the 30,000+ descriptions every second month! Otherwise it defults to the public 56 codes.
+Want to try the PRO version online? https://webtools.bwe.dev/
   
 After purchase, provide your HWID via the provided application to obtain your license key.
